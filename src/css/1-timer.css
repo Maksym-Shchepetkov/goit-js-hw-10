@@ -1,0 +1,152 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 36px;
+  padding-left: 156px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
+
+button:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+  cursor: default;
+}
+
+#datetime-picker {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  outline: none;
+}
+
+#datetime-picker:hover,
+#datetime-picker:focus {
+  border: 1px solid #000000;
+}
+
+#datetime-picker:active {
+  border: 1px solid #4e75ff;
+}
+
+#datetime-picker:disabled {
+  border: 1px solid #808080;
+  background-color: #fafafa;
+  cursor: default;
+  color: #808080;
+}
+
+#datetime-picker::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-area {
+  display: flex;
+  gap: 8px;
+  width: 355px;
+  margin-bottom: 32px;
+}
+
+.timer {
+  display: flex;
+  width: 346px;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 48px) / 3);
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.go-back {
+  border-radius: 50%;
+  border: 2px solid #050505;
+  width: 24px;
+  height: 24px;
+  padding: 15px;
+  margin: 24px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.go-back:hover,
+.go-back:focus {
+  border: 2px solid #0bcf53;
+  background-color: #14532b;
+  color: #ffffff;
+}
